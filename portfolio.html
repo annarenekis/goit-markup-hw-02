@@ -9,115 +9,117 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet" />
-    <link rel="stylesheet" href="css/style.css"/>
+        rel="stylesheet" 
+    />   
+    <link rel="stylesheet" href="./css/styles.css"/>
 </head>
 <body>
     <!-- header -->
+<!-- header -->
     <header class="header">
         <nav class="navigation">
-            <a href="index.html" class="logo link"><span class="web">Web</span>Studio</a>
-            <ul>
-                <li><a href="#studio" class="studio link">Студия</a></li>
-                <li><a href="./portfolio.html" class="portfolio link">Портфолио</a></li>
-                <li><a href="#contacts" class="contacts link">Контакты</a></li>
+            <a href="index.html" class="logo link"><span class="word-web">Web</span><span class="word-studio">Studio</span></a>
+            <ul class="list nav">
+                <li><a href="./index.html" class="nav-item link">Студия</a></li>
+                <li><a href="./portfolio.html" class="nav-item link">Портфолио</a></li>
+                <li><a href="#contacts" class="nav-item link">Контакты</a></li>
             </ul>
         </nav>          
-        <ul class="contact-type">
-            <li><a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a></li>
-            <li><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
-        </ul>              
+        <ul class="contact-type list">
+            <li><a href="tel:+380961111111" class="contact-link link">+38 096 111 11 11</a></li>
+            <li><a href="mailto:info@devstudio.com" class="contact-link link">info@devstudio.com</a></li>
+        </ul>               
     </header>
     <!-- main -->
     <main>
-        <section>
-            <h1 class="hidden">Портфолио</h1>
-            <ul>
-                <li><a href="/" class="link">Все</a></li>
-                <li><a href="/" class="link">Веб-сайты</a></li>
-                <li><a href="/" class="link">Приложения</a></li>
-                <li><a href="/" class="link">Дизайн</a></li>
-                <li><a href="/" class="link">Маркетинг</a></li>
+        <section class="filter-menu">
+            <h1 class="hidden section-title">Портфолио</h1>
+            <ul class="list">
+                <li><button class="button filter-item all">Все</button></li>
+                <li><button class="button filter-item web-pages">Веб-сайты</button></li>
+                <li><button class="button filter-item app">Приложения</button></li>
+                <li><button class="button filter-item design">Дизайн</button></li>
+                <li><button class="button filter-item marketing">Маркетинг</button></li>
             </ul>
-            <ul>
+            <ul class="list project-list">
                 <li>
                     <figure>
-                        <a href="/"><img src="./img/portfolio/img1.jpg" alt=""></a>
+                        <a href="/"><img src="./img/portfolio/img1.jpg" alt="веб-сайт технокряк" width: 370px;></a>
                         <figcaption>
-                            <h2>Технокряк</h2>
-                            <p>Веб-сайт</p>
+                            <h2 class="project-title">Технокряк</h2>
+                            <p class="project-text">Веб-сайт</p>
                         </figcaption>
                     </figure> 
                 </li>
                 <li>
                     <figure>
-                        <a href="/"><img src="./img/portfolio/img2.jpg" alt=""></a>
+                        <a href="/"><img src="./img/portfolio/img2.jpg" alt="баскетбольный постер" width: 370px;></a>
                         <figcaption>
-                            <h2>Постер New Orlean vs Golden Star</h2>
-                            <p>Дизайн</p>
+                            <h2 class="project-title">Постер New Orlean vs Golden Star</h2>
+                            <p class="project-text">Дизайн</p>
                         </figcaption>
                     </figure> 
                 </li>
                 <li>
                     <figure>
-                        <a href="/"><img src="./img/portfolio/img3.jpg" alt=""></a>
+                        <a href="/"><img src="./img/portfolio/img3.jpg" alt="постер ресторана" width: 370px;></a>
                         <figcaption>
-                            <h2>Ресторан Seafood</h2>
-                            <p>Приложение</p>
+                            <h2 class="project-title">Ресторан Seafood</h2>
+                            <p class="project-text">Приложение</p>
                         </figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
-                        <a href="/"><img src="./img/portfolio/img4.jpg" alt=""></a>
+                        <a href="/"><img src="./img/portfolio/img4.jpg" alt="наушники" width: 370px;></a>
                         <figcaption>
-                            <h2>Проект Prime</h2>
-                            <p>Маркетинг</p>
+                            <h2 class="project-title">Проект Prime</h2>
+                            <p class="project-text">Маркетинг</p>
                         </figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
-                        <a href="/"><img src="./img/portfolio/img5.jpg" alt=""></a>
+                        <a href="/"><img src="./img/portfolio/img5.jpg" alt="две коробки" width: 370px;></a>
                         <figcaption>
-                            <h2>Проект Boxes</h2>
-                            <p>Приложение</p>
+                            <h2 class="project-title">Проект Boxes</h2>
+                            <p class="project-text">Приложение</p>
                         </figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
-                        <a href="/"><img src="./img/portfolio/img6.jpg" alt=""></a>
+                        <a href="/"><img src="./img/portfolio/img6.jpg" alt="экран" width: 370px;></a>
                         <figcaption>
-                            <h2>Inspiration has no Borders</h2>
-                            <p>Веб-сайт</p>
+                            <h2 class="project-title">Inspiration has no Borders</h2>
+                            <p class="project-text">Веб-сайт</p>
                         </figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
-                        <a href="/"><img src="./img/portfolio/img7.jpg" alt=""></a>
+                        <a href="/"><img src="./img/portfolio/img7.jpg" alt="журнал" width: 370px;></a>
                         <figcaption>
-                            <h2>Издание Limited Edition</h2>
-                            <p>Дизайн</p>
+                            <h2 class="project-title">Издание Limited Edition</h2>
+                            <p class="project-text">Дизайн</p>
                         </figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
-                        <a href="/"><img src="./img/portfolio/img8.jpg" alt=""></a>
+                        <a href="/"><img src="./img/portfolio/img8.jpg" alt="бирка" width: 370px;></a>
                         <figcaption>
-                            <h2>Проект LAB</h2>
-                            <p>Маркетинг</p>
+                            <h2 class="project-title">Проект LAB</h2>
+                            <p class="project-text">Маркетинг</p>
                         </figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
-                        <a href="/"><img src="./img/portfolio/img9.jpg" alt=""></a>
+                        <a href="/"><img src="./img/portfolio/img9.jpg" alt="ноутбук" width: 370px;></a>
                         <figcaption>
-                            <h2>Growing Business</h2>
-                            <p>Приложение</p>
+                            <h2 class="project-title">Growing Business</h2>
+                            <p class="project-text">Приложение</p>
                         </figcaption>
                     </figure>
 
@@ -127,13 +129,13 @@
     </main>
 
     <!-- footer -->
-    <footer>
-        <a href="index.html" class="logo link"><span class="web">Web</span>Studio</a>
-        <address>
-            <ul>
-                <li><a href="/" class="address link">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li><a href="info@example.com" class="contact-link">info@example.com</a></li>
-                <li><a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a></li>
+    <footer class="footer">
+        <a href="index.html" class="logo link"><span class="word-web">Web</span><span class="word-studio-footer">Studio</span></a>
+        <address class="footer-address">
+            <ul class="footer-list">
+                <li><a href="/" class="footer-item physical-address link">г. Киев, пр-т Леси Украинки, 26</a></li>
+                <li><a href="info@example.com" class="footer-item footer-email link">info@example.com</a></li>
+                <li><a href="tel:+380961111111" class="footer-item footer-ph-numb link">+38 096 111 11 11</a></li>
             </ul>
         </address>
     </footer>
